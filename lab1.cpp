@@ -54,10 +54,6 @@ int main()
 	double x3 = mathematical_root(5.5, 6, eps, &iter3);
 	cout << "Dichotomy method:\n" << setprecision(12) << x1 << " and iterations: " << iter1 << 	"\n" << setprecision(12) << x2 << " and iterations: " << iter2 << "\n" << setprecision(12) << 	x3 << " and iterations: " << iter3 << endl;
 
-	
-
-
-
 	double x, param;
 	x = -3;
 	param = 2 / (my_func_df(-2.6) + my_func_df(-1.6));
